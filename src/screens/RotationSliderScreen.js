@@ -70,7 +70,7 @@ export default class CubeHorizontal extends React.Component {
   render() {
     return (
       <View style={styles.father}>
-        <StatusBar hidden={true} />
+        <StatusBar />
         <CubeNavigationHorizontal
           ref={(view) => {
             this.cube = view;
