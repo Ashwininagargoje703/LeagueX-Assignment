@@ -20,7 +20,7 @@ const imagesWithText = [
     text: "Text for Image 2, Certainly! To display different text for each image, you can modify the ",
   },
   {
-    uri: "https://imageio.forbes.com/specials-images/imageserve/64aceb40d0ea591fa2edfb01/Two-Technology-Trends-Shaping-The-Future-Of-Gaming/960x0.jpg?height=398&width=711&fit=bounds",
+    uri: "https://images.unsplash.com/photo-1612774336178-51f2c963c4cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
     text: "Text for Image 3, Certainly! To display different text for each image, you can modify the ",
   },
   {
@@ -105,7 +105,7 @@ const CardSwipeScreen = ({ navigation }) => {
 
   return (
     <ImageBackground
-      source={{ uri: "https://i.ibb.co/CmMQM00/bg-image.jpg" }}
+      source={require("../../assets/bg-image.png")}
       style={{ flex: 1 }}
     >
       <View style={styles.container}>
